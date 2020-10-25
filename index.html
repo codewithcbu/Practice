@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Edit Profile</title>	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+		<!------ Fontawesome ------>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+
+	integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" />
+
+		<!------ Style sheet ------>
+
+	<link rel="stylesheet" href="css/profile.css" >
+
+		<!------ Google fonts ------>
+
+	<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+
+	rel="stylesheet">
+
+		<!------ Custom style ------>
+
+	<link rel="stylesheet" href="style.css"  >
+
+</head>
+
+<body>
+
+	<div class="container" >
+
+		<div class="card" >
+
+			<div class="toggle_box" >
+
+				<div class="cancel" >
+
+					<a href="#" > <span></span><span></span> </a>
+
+				</div>
+
+				<div class="save" >
+
+					<label for="btn"> <span></span><span></span>  </label>
+
+				</div>
+
+			</div>
+
+			
+
+			<form class="input_group" >
+
+				<img class="" src="web/team-1.jpg" >
+
+				<input type="file" id="file"  class="profile_img" hidden >
+
+				<label for="file" id="selector" >change profile photo</label>
+
+				<div class="input_section" >
+
+					<div class="input_data" >
+
+						<input type="text" class="input_field" name="name" required>
+
+						<label> <span>Name</span> </label>
+
+					</div>
+
+					<div class="input_data" >
+
+						<input type="text" class="input_field" name="username" required>
+
+						<label> <span>Username</span> </label>
+
+					</div>
+
+					<div class="input_data" >
+
+						<input type="date" class="input_field" name="dob" required>
+
+						<label> <span>Date of birth</span> </label>
+
+					</div>
+
+					<div class="input_data" >
+
+						<input class="input_field" name="bio" maxlength="10"  required>
+
+						<label> <span>Bio</span> </label>
+
+					</div>
+
+					<input class="input_data" type="submit" id="btn" hidden >
+
+				</div>
+
+			</form>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
